@@ -8,11 +8,7 @@ do
 		continue;
 	fi
 
-	if (($i/10/10 == 3 || $i/10/10 == 6 || $i/10/10 ==9))
-	then
-		echo -n " C "
-		continue;
-	elif (($i/10%10 == 3 || $i/10%10 == 6 || $i/10%10 ==9))
+	if (($i/10 == 3 || $i/10 == 6 || $i/100 ==9))
 	then
 		echo -n " C "
 		continue;
