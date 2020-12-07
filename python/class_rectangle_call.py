@@ -1,4 +1,4 @@
-from class_ex import *
+from class_rectangle import *
 
 square1 = Rectangle.isSquare(5, 5)
 print(square1)
